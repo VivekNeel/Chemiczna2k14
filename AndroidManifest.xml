@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chemiczna.vivek"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.chemiczna.vivek.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chemiczna.vivek.sp"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.chemiczna.vivek.menu"
+            android:uiOptions="splitActionBarWhenNarrow">
+        <meta-data android:name="android.support.UI_OPTIONS"
+                   android:value="splitActionBarWhenNarrow" />
+    
+             >
+            <intent-filter>
+                <action android:name="com.chemiczna.vivek.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chemiczna.vivek.paper"
+             >
+        </activity>
+          <activity
+            android:name="com.chemiczna.vivek.poster"
+             >
+        </activity>
+        
+        
+          
+           <activity
+            android:name="com.chemiczna.vivek.treasure"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.mystery"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.material"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.idp"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.gaming"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.crazy"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.cinema"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.adz"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.tquiz"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.wor"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.workingmodel"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.shortfilm"
+             >
+        </activity>
+       <activity
+            android:name="com.chemiczna.vivek.taboo"
+             >
+        </activity>
+     
+      
+         <activity
+            android:name="com.chemiczna.vivek.option"
+            
+             >
+                  </activity>
+         <activity
+            android:name="com.chemiczna.vivek.about"
+            
+             >
+        </activity>
+        
+         
+    
+    </application>
+
+</manifest>

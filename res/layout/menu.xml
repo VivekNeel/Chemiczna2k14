@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#ff3a4c55"
+    tools:context=".menu" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/testbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#ff0babf5"
+            android:text="EVENTS"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:onClick="onClick"
+            android:text="Paper Presentation"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton1"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="Poster Presentation"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton2"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Mystery Project"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton3"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="Idp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton4"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Treasure Hunt"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton6"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton5"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="Material Hunt"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton7"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton6"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Cinema Quiz"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton8"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton7"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="Adzapp"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton9"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton8"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Gaming"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+        
+        // new 
+        
+          <Button
+            android:id="@+id/testbutton10"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton9"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="Technical quiz"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton11"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton10"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Crazy Quest"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton12"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton11"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="WorkShop"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton13"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton12"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Working Model"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton14"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton13"
+            android:layout_centerInParent="true"
+            android:background="#ffffffff"
+            android:text="Short Film"
+            android:textColor="#ff000000"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testbutton15"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/testbutton14"
+            android:layout_centerInParent="true"
+            android:background="#ff0babf5"
+            android:text="Taboo"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+        
+        
+        
+    </RelativeLayout>
+
+</ScrollView>

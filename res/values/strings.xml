@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chemiczna</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+ <string name="email_address">chemiczna2k14@chemical.ssn.edu.in</string>
+    <string name="email_subject">IMPORTANT:Fill your details below</string>
+    <string name="email_subject2"> YOUR NAME: 
+                                   COLLEGE:  
+                                   YEAR:
+                                   PHONE NO:  </string>
+       <string name="email_subject3"> YOUR NAME: 
+                                   COLLEGE:  
+                                   YEAR:
+                                   PHONE NO: 
+                                   AND SEND IN YOUR ABSTRACTS ASAP  </string>
+                                     <string name="link">https://play.google.com/store/apps/details?id=com.chemiczna.vivek</string>
+                                   
+       
+        
+        
+        
+      
+</resources>
+

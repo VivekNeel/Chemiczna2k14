@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ff000000">
+
+    
+
+    <Button
+        android:id="@+id/button1"
+       
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="VENUE  :"
+        android:layout_marginTop="20dp"
+        android:background="#ff2bbfb6" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="220dp"
+        android:text="MCA lab"
+        android:textSize="15dp"
+        android:layout_marginTop="-40dp"
+        
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+    
+     <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="INCHARGE:" 
+         android:background="#ff2bbfb6" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="220dp"
+        android:text="Srivatsan and JayaKumar"
+        android:textSize="15dp"
+        android:layout_marginTop="-40dp"
+         android:textColor="#ffffffff"
+        android:textStyle="bold"
+        
+        />
+    
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="172dp"
+         android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
+        android:text="TIMINGS:"
+         android:background="#ff2bbfb6" 
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="200dp"
+        android:text="Full day event"
+        android:textSize="15dp"
+        android:layout_marginTop="-40dp"
+         android:textColor="#ffffffff"
+        android:textStyle="bold"
+        
+       />
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="172dp"
+         android:layout_marginTop="21dp"
+        android:layout_height="wrap_content"
+        android:text="PHONE NO:" 
+         android:background="#ff2bbfb6" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="220dp"
+        android:text="8056855509"
+        android:textSize="15dp"
+        android:layout_marginTop="-40dp"
+         android:textColor="#ffffffff"
+        android:textStyle="bold"
+        
+         />
+    
+    
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="172dp"
+         android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:text="REGISTER" 
+         android:background="#ff2bbfb6" 
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MORE INFO"
+        android:layout_gravity="center" 
+        android:textSize="10dp"
+        android:background="#ffec3030"
+        android:textStyle="bold"/>
+         />
+    
+    
+    
+</LinearLayout>
